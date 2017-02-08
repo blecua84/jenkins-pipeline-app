@@ -39,7 +39,7 @@ node {
         } catch(err) {
             step([$class:'JUnitResultArchiver', testResults: '**/target/surefire-reports/TEST-*.xml'])
 
-            if(currentBuild.result = 'UNSTABLE')
+            if(currentBuild.result == 'UNSTABLE')
                 currentBuild.result = 'FAILURE'
 
             throw err
