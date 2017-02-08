@@ -1,2 +1,2 @@
 # jenkins-pipeline-app
-Small spring boot application for with Jenkins's pipeline.
+Small spring boot application for working with Jenkins's pipeline.
